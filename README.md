@@ -3,6 +3,8 @@ Github actions for ScoopML
 
 No Code Machine learning using github actions!!
 
+Made using pycaret tool
+
 Lets build AI models without coding inside repository
 # Lets get Started
 
