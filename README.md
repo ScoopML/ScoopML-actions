@@ -6,7 +6,7 @@ No Code Machine learning using github actions!!
 Lets build AI models without coding inside repository
 # Lets get Started
 
-Copy paste the below in 
+Copy paste the below code in a .yml script inside a target repository and click on start commit and then actions
 ```
 
 name: ScoopML Git Actions
