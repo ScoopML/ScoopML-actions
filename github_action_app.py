@@ -1,5 +1,6 @@
 import os, ast
 import pandas as pd
+from pycaret as import *
 
 dataset = os.environ["INPUT_DATASET"]
 target = os.environ["INPUT_TARGET"]
