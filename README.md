@@ -5,19 +5,21 @@ No Code Machine learning using github actions!!
 
 Lets build AI models without coding inside repository
 # Lets get Started
+
+Copy paste the below in 
 ```
 
 name: ScoopML Git Actions
 on: 
   push :
-    branches: [ master ]  
+    branches: [ main ]  
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: ScoopML Git Actions
         id: model
-        uses: ScoopML/ScoopML-actions@automl
+        uses: ScoopML/ScoopML-actions@1.0
         with:
           DATASET: "juice"
           TARGET: "Purchase"
